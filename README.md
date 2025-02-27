@@ -12,11 +12,11 @@ Python 3.x が必要です。
 
 ## 環境設定
 
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate
-    pip install -r requirements.txt
-    ```
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
 
 ## データの準備
 
@@ -39,10 +39,10 @@ new_examinee_data.csv は song_id と result の2カラムを持ちます。
 
 ## 実行
 
-    `estimate_ability.py` スクリプトを実行して、クリア能力を推定します。
+`estimate_ability.py` スクリプトを実行して、クリア能力を推定します。
 
-    ```bash
-    python estimate_ability.py　./data/model_data.csv ./data/new_examinee_data.csv
-    ```
+```bash
+python estimate_ability.py　./data/model_data.csv ./data/new_examinee_data.csv
+```
 
 
