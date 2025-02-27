@@ -1,0 +1,14 @@
+Cython==3.0.12
+dnspython==2.7.0
+numpy==2.2.3
+pandas==2.2.3
+pyirt==0.3.4
+pymongo==4.11.1
+python-dateutil==2.9.0.post0
+python-decouple==3.8
+pytz==2025.1
+scipy==1.15.2
+setuptools==75.8.2
+six==1.17.0
+tqdm==4.67.1
+tzdata==2025.1
