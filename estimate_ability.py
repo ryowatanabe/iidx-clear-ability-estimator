@@ -15,6 +15,7 @@ def estimate_ability(model_data_path, examinee_data_path):
     # CSVファイルを読み込む
     model_data = pd.read_csv(model_data_path)
     examinee_data = pd.read_csv(examinee_data_path)
+    examinee_data['response'] = examinee_data['response'].replace(-1, np.nan)
 
     # 既存モデルデータと受験者データを結合する
     merged_data = pd.merge(model_data, examinee_data, on='question_id')
@@ -30,9 +31,9 @@ def estimate_ability(model_data_path, examinee_data_path):
     for i in range(100):  # 最大100回繰り返す
         # 尤度関数とその導関数を計算する
         p = 1.0 / (1.0 + np.exp(-(theta - difficulty)))
-        log_likelihood = np.sum(response * np.log(p) + (1 - response) * np.log(1 - p))
-        dlog_likelihood = np.sum(response - p)
-        d2log_likelihood = -np.sum(p * (1 - p))
+        log_likelihood = np.nansum(response * np.log(p) + (1 - response) * np.log(1 - p))
+        dlog_likelihood = np.nansum(response - p)
+        d2log_likelihood = -np.nansum(p * (1 - p))
 
         # パラメータを更新する
         theta = theta - dlog_likelihood / d2log_likelihood

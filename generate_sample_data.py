@@ -16,4 +16,11 @@ new_examinee_data = pd.DataFrame({
 })
 new_examinee_data.to_csv('new_examinee_data.csv', index=False)
 
+# 新しい受験者データ(欠損値込み)を生成
+new_examinee_data = pd.DataFrame({
+    'question_id': range(1, 101),
+    'response': np.random.randint(-1, 2, 100)
+})
+new_examinee_data.to_csv('new_examinee_data_with_absence.csv', index=False)
+
 print('サンプルデータが生成されました。')
