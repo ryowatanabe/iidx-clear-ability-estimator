@@ -15,14 +15,14 @@ def estimate_ability(model_data_path, examinee_data_path):
     # CSVファイルを読み込む
     model_data = pd.read_csv(model_data_path)
     examinee_data = pd.read_csv(examinee_data_path)
-    examinee_data['response'] = examinee_data['response'].replace(-1, np.nan)
+    examinee_data['result'] = examinee_data['result'].replace(-1, np.nan)
 
     # 既存モデルデータと受験者データを結合する
-    merged_data = pd.merge(model_data, examinee_data, on='question_id')
+    merged_data = pd.merge(model_data, examinee_data, on='song_id')
 
     # 困難度パラメータと正誤データをnumpy配列に変換する
     difficulty = merged_data['difficulty'].values
-    response = merged_data['response'].values
+    result = merged_data['result'].values
 
     # 能力パラメータの初期値を設定する
     theta = 0.0
@@ -31,8 +31,8 @@ def estimate_ability(model_data_path, examinee_data_path):
     for i in range(100):  # 最大100回繰り返す
         # 尤度関数とその導関数を計算する
         p = 1.0 / (1.0 + np.exp(-(theta - difficulty)))
-        log_likelihood = np.nansum(response * np.log(p) + (1 - response) * np.log(1 - p))
-        dlog_likelihood = np.nansum(response - p)
+        log_likelihood = np.nansum(result * np.log(p) + (1 - result) * np.log(1 - p))
+        dlog_likelihood = np.nansum(result - p)
         d2log_likelihood = -np.nansum(p * (1 - p))
 
         # パラメータを更新する

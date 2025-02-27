@@ -8,7 +8,7 @@ def process_csv(input_file):
     try:
         with open(input_file, 'r', encoding='utf-8') as csvfile:
             reader = csv.DictReader(csvfile)
-            print("question_id,difficulty")  # ヘッダー行の出力
+            print("song_id,difficulty")  # ヘッダー行の出力
             for row in reader:
                 song_id = row['song_id']
                 ec_diff = row['ec_diff']

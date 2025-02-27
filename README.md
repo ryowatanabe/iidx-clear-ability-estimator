@@ -1,55 +1,48 @@
 # IIDX Clear Ability Estimator
 
-このプロジェクトは、IIDX（beatmania IIDX）のクリア能力を推定するためのものです。
+beatmania IIDX ダブルプレイのクリア能力を推定するツールです。
+
+ereter.net に登録されていない九段以下のプレイヤーや、PC版 (INFINITAS) のプレイヤーのクリア能力を可視化することを目的としています。
+
+ereter.net のクリア能力計算アルゴリズムは公開されていませんが、項目応答理論 (IRT) の1PLモデルで難易度推定されたものと仮定して扱います。
+
+## 要件
+
+Python 3.x が必要です。
 
 ## 環境設定
 
-1.  **Pythonのインストール:**
-    Python 3.x がインストールされていることを確認してください。インストールされていない場合は、[Pythonの公式サイト](https://www.python.org/downloads/) からダウンロードしてインストールしてください。
-
-2.  **仮想環境の作成:**
-    プロジェクトのディレクトリで仮想環境を作成します。
-
     ```bash
     python3 -m venv venv
-    ```
-
-3.  **仮想環境のアクティブ化:**
-    作成した仮想環境をアクティブにします。
-
-    ```bash
     source venv/bin/activate
-    ```
-
-4.  **依存関係のインストール:**
-    `requirements.txt` ファイルを使用して、必要なライブラリをインストールします。
-
-    ```bash
     pip install -r requirements.txt
     ```
 
-## 実行手順
+## データの準備
 
-1.  **データの準備:**
-    *   `model_data.csv`: モデルデータ
-    *   `new_examinee_data.csv`: 新しい被験者のデータ
-    これらのCSVファイルがプロジェクトのルートディレクトリに存在することを確認してください。
+ereter.netの難易度表のデータは ./data/model_data.csv として用意されています。
 
-2.  **クリア能力の推定:**
+自分のクリア状況を表す ./data/new_examinee_data.csv を作成してください。
+
+new_examinee_data.csv は song_id と result の2カラムを持ちます。
+
+- song_id
+  - ereter.net の song_id とゲージ種別を組み合わせた文字列
+    - EASY : {song_id}_ec
+    - HARD : {song_id}_hc
+    - EXHARD : {song_id}_exh
+- result
+  - クリア状況
+    - 未プレイ : -1
+    - 未クリア : 0
+    - クリア : 1
+
+## 実行
+
     `estimate_ability.py` スクリプトを実行して、クリア能力を推定します。
 
     ```bash
-    python estimate_ability.py
+    python estimate_ability.py　./data/model_data.csv ./data/new_examinee_data.csv
     ```
 
-3.  **サンプルデータの生成:**
-    `generate_sample_data.py` スクリプトを実行して、サンプルデータを生成します。
 
-    ```bash
-    python generate_sample_data.py
-    ```
-
-## 注意事項
-
-*   このプロジェクトを実行する前に、必要なデータファイルが揃っていることを確認してください。
-*   仮想環境をアクティブにしてからスクリプトを実行してください。
