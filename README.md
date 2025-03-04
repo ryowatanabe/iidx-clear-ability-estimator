@@ -42,7 +42,7 @@ new_examinee_data.csv は song_id と result の2カラムを持ちます。
 `estimate_ability.py` スクリプトを実行して、クリア能力を推定します。
 
 ```bash
-python estimate_ability.py　./data/model_data.csv ./data/new_examinee_data.csv
+python estimate_ability.py ./data/model_data.csv ./data/new_examinee_data.csv
 ```
 
 
