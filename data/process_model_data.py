@@ -1,6 +1,10 @@
 import csv
 import argparse
 
+# 入力ファイル : ereternet_difficulty_diffonly.csv の形式
+# 出力ファイル : model_data.csv の形式
+# > python process_model_data.py ereternet_difficulty_diffonly.csv > model_data.csv
+
 def process_csv(input_file):
     """
     CSVファイルを読み込み、指定された形式でデータを出力する。

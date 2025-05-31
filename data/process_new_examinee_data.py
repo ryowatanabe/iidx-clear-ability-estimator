@@ -1,6 +1,10 @@
 import csv
 import argparse
 
+# 入力ファイル : clear_ability.csv の形式
+# 出力ファイル : new_examinee_data.csv の形式
+# > python process_new_examinee_data.py clear_ability.csv > new_examinee_data.csv
+
 def process_csv(input_file):
     """
     CSVファイルを読み込み、指定された形式でデータを出力する。
