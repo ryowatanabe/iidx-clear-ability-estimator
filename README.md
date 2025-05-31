@@ -20,11 +20,11 @@ pip install -r requirements.txt
 
 ## データの準備
 
-ereter.netの難易度表のデータは ./data/model_data.csv として用意されています。
+ereter.netの難易度表のデータは `./data/model_data.csv` として用意されています。(ときどき更新します)
 
-自分のクリア状況を表す ./data/new_examinee_data.csv を作成してください。
+自分のクリア状況を表す `./data/new_examinee_data.csv` を用意してください。
 
-new_examinee_data.csv は song_id と result の2カラムを持ちます。
+`new_examinee_data.csv` は `song_id` と `result` の2カラムを持ちます。
 
 - song_id
   - ereter.net の song_id とゲージ種別を組み合わせた文字列
@@ -36,6 +36,32 @@ new_examinee_data.csv は song_id と result の2カラムを持ちます。
     - 未プレイ : -1
     - 未クリア : 0
     - クリア : 1
+
+もっと一覧性のある形で管理したい場合、別の形式から変換して利用することもできます。
+
+`song_id`, `ec`, `hc`, `exh` の4カラムを持つ csv ファイルを用意してください。この4つ以外のカラムは処理の上では無視されますので、曲名や難易度など管理上都合のよいカラムがあれば自由に追加してもかまいません。ファイル例としては `./data/clear_ability.csv` を参照してください。
+
+- song_id
+  - ereter.net の song_id
+- ec
+  - EASY クリア状態
+    - 未プレイ : -1
+    - 未クリア : 0
+    - クリア : 1
+- hc
+  - HARD クリア状態
+  - 値の意味は ec と同様です
+  - 実際にハードゲージで挑戦したことがあるかどうかに関わらず、他ゲージでプレイ済で未ハードであれば 0 になります
+- exh
+  - EXHARD クリア状態
+  - 値の意味は ec, hc と同様です
+  - 実際にエクハゲージで挑戦したことがあるかどうかに関わらず、他ゲージでプレイ済で未エクハであれば 0 になります
+
+このようなファイルが用意されていれば、`process_new_examinee_data.py` スクリプトを実行して、`./data/new_examinee_data.csv` を生成できます。
+
+```bash
+python process_new_examinee_data.py clear_ability.csv > new_examinee_data.csv
+```
 
 ## 実行
 
