@@ -38,7 +38,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 591,BLOCKS,ANOTHER,2023/04/15,2023/04/15,0,2025/03/03,2025/03/03,1,,,0,,,0
 610,FAKE TIME,HYPER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 611,FAKE TIME,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-615,GENOCIDE,HYPER,2023/06/22,2023/06/22,0,,,0,,,0,,,0
+615,GENOCIDE,HYPER,2023/06/22,2023/06/22,0,2025/7/12,2025/7/12,1,,,0,,,0
 616,GENOCIDE,ANOTHER,,,-1,,,-1,,,-1,,,-1
 618,gigadelic,HYPER,2023/04/19,2023/04/19,0,2023/12/15,2023/12/15,1,,,0,,,0
 619,gigadelic,ANOTHER,2023/06/27,2023/06/27,0,2024/10/12,2024/10/12,1,,,0,,,0
@@ -79,7 +79,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 1076,MENDES,ANOTHER,,,-1,,,-1,,,-1,,,-1
 1085,oratio,ANOTHER,1,1,0,2022/10/07,2022/10/07,1,,,0,,,0
 1088,PARANOiA ～HADES～,ANOTHER,,,-1,,,-1,,,-1,,,-1
-1100,"satellite020712 from ""CODED ARMS""",ANOTHER,2023/06/23,2023/06/23,0,,,0,,,0,,,0
+1100,"satellite020712 from ""CODED ARMS""",ANOTHER,2023/06/23,2023/06/23,0,2025/7/12,2025/7/12,1,,,0,,,0
 1127,TROOPERS,ANOTHER,2023/01/07,2023/01/07,0,2023/06/19,2023/06/19,1,2025/05/05,2025/05/05,1,,,0
 1142,ミラージュ・レジデンス,ANOTHER,2023/04/19,2023/04/19,0,2024/08/11,2024/08/11,1,,,0,,,0
 1151,少年A,ANOTHER,,,-1,,,-1,,,-1,,,-1
@@ -114,13 +114,13 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 1566,Session 9 -Chronicles-,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 1572,SPECIAL SUMMER CAMPAIGN!,ANOTHER,2023/01/07,2023/01/07,0,2023/06/06,2023/06/06,1,,,0,,,0
 1584,THE BLACK KNIGHT,ANOTHER,1,1,0,2024/07/18,2024/07/18,1,,,0,,,0
-1614,ZETA～素数の世界と超越者～,ANOTHER,,,-1,,,-1,,,-1,,,-1
+1614,ZETA～素数の世界と超越者～,ANOTHER,2025/06/22,2025/06/22,0,,,0,,,0,,,0
 1623,黒髪乱れし修羅となりて,ANOTHER,2023/03/27,2023/03/27,0,2024/09/07,2024/09/07,1,,,0,,,0
 1626,灼熱Beach Side Bunny,ANOTHER,2024/02/12,2024/02/12,0,,,0,,,0,,,0
 1635,旅人リラン,ANOTHER,2023/06/02,2023/06/02,0,2023/11/26,2023/11/26,1,,,0,,,0
 1653,BLACK.by X-Cross Fade,ANOTHER,2023/06/02,2023/06/02,0,2024/02/24,2024/02/24,1,,,0,,,0
 1665,DIAVOLO,ANOTHER,,,-1,,,-1,,,-1,,,-1
-1674,F,ANOTHER,2024/02/11,2024/02/11,0,,,0,,,0,,,0
+1674,F,ANOTHER,2024/02/11,2024/02/11,0,2025/06/22,2025/06/22,1,,,0,,,0
 1680,fffff,ANOTHER,2023/06/02,2023/06/02,0,2024/01/13,2024/01/13,1,,,0,,,0
 1689,HAERETICUS,ANOTHER,,,-1,,,-1,,,-1,,,-1
 1698,Infinite cave,ANOTHER,2023/03/02,2023/03/02,0,2023/06/27,2023/06/27,1,,,0,,,0
@@ -171,7 +171,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 2049,たまゆら,ANOTHER,2024/02/24,2024/02/24,0,2025/04/06,2025/04/06,1,,,0,,,0
 2052,トリカゴノ鳳凰,ANOTHER,2023/01/03,2023/01/03,0,2023/01/29,2023/01/29,1,2024/10/24,2024/10/24,1,,,0
 2061,音楽,ANOTHER,2024/04/21,2024/04/21,0,2024/10/15,2024/10/15,1,,,0,,,0
-2068,仮想空間の旅人たち,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
+2068,仮想空間の旅人たち,LEGGENDARIA,2025/07/11,2025/07/11,0,,,0,,,0,,,0
 2071,狂イ咲ケ焔ノ華,ANOTHER,2023/04/15,2023/04/15,0,2023/10/20,2023/10/20,1,,,0,,,0
 2077,即席！脳直★ミュージックシステム,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 2090,Adularia,ANOTHER,2023/11/05,2023/11/05,0,2024/12/28,2024/12/28,1,,,0,,,0
@@ -228,7 +228,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 2492,Shooting Fireball,ANOTHER,2023/06/27,2023/06/27,0,2024/09/29,2024/09/29,1,,,0,,,0
 2498,Sounds Of Summer,ANOTHER,,,-1,2025/02/02,2025/02/02,1,,,0,,,0
 2501,SpaceLand☆TOYBOX,ANOTHER,2023/12/16,2023/12/16,0,,,0,,,0,,,0
-2516,The Least 100sec,ANOTHER,2023/01/02,2023/01/02,0,2023/01/15,2023/01/15,1,,,0,,,0
+2516,The Least 100sec,ANOTHER,2023/01/02,2023/01/02,0,2023/01/15,2023/01/15,1,2025/06/05,2025/06/05,1,,,0
 2519,TIEFSEE,ANOTHER,2023/12/16,2023/12/16,0,,,0,,,0,,,0
 2522,TOXIC VIBRATION,ANOTHER,2025/05/25,2025/05/25,0,,,0,,,0,,,0
 2528,We're so Happy (P*Light Remix) IIDX ver.,ANOTHER,2023/01/02,2023/01/02,0,2023/12/02,2023/12/02,1,,,0,,,0
@@ -236,7 +236,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 2534,ZZ,ANOTHER,2023/01/02,2023/01/02,0,2023/02/03,2023/02/03,1,,,0,,,0
 2537,それは花火のような恋,ANOTHER,2023/12/16,2023/12/16,0,2024/01/27,2024/01/27,1,,,0,,,0
 2564,リリーゼと炎龍レーヴァテイン,ANOTHER,2023/11/04,2023/11/04,0,2025/04/27,2025/04/27,1,,,0,,,0
-2567,夏色DIARY - L.E.D.-G STYLE MIX -,ANOTHER,1,1,0,2022/10/07,2022/10/07,1,,,0,,,0
+2567,夏色DIARY - L.E.D.-G STYLE MIX -,ANOTHER,1,1,0,2022/10/07,2022/10/07,1,2025/07/01,2025/07/01,1,,,0
 2570,鬼天,ANOTHER,2023/10/24,2023/10/24,0,2024/03/20,2024/03/20,1,,,0,,,0
 2573,共鳴遊戯の華,ANOTHER,,,-1,,,-1,,,-1,,,-1
 2588,少年は空を辿る,ANOTHER,,,-1,,,-1,,,-1,,,-1
@@ -268,9 +268,9 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 2828,X,ANOTHER,,,-1,,,-1,,,-1,,,-1
 2849,めいさいアイドル☆あいむちゃん♪,ANOTHER,,,-1,,,-1,,,-1,,,-1
 2852,駅猫のワルツ,ANOTHER,,,-1,,,-1,,,-1,,,-1
-2855,紫陽花 -AZISAI-,ANOTHER,2023/01/02,2023/01/02,0,2023/01/02,2023/01/02,1,,,0,,,0
+2855,紫陽花 -AZISAI-,ANOTHER,2023/01/02,2023/01/02,0,2023/01/02,2023/01/02,1,2025/07/01,2025/07/01,1,,,0
 2858,灼熱 Pt.2 Long Train Running,ANOTHER,,,-1,,,-1,,,-1,,,-1
-2864,真 地獄超特急 -HELL or HELL-,ANOTHER,2024/07/07,2024/07/07,0,,,0,,,0,,,0
+2864,真 地獄超特急 -HELL or HELL-,ANOTHER,2024/07/07,2024/07/07,0,2025/06/28,2025/06/28,1,,,0,,,0
 2900,〆,ANOTHER,2023/06/27,2023/06/27,0,2024/12/13,2024/12/13,1,,,0,,,0
 2918,BabeL ～Grand Story～,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 2942,Caterpillar,ANOTHER,2024/05/06,2024/05/06,0,,,0,,,0,,,0
@@ -279,7 +279,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 2963,FUZIN RIZIN,ANOTHER,2023/02/28,2023/02/28,0,2023/12/16,2023/12/16,1,,,0,,,0
 2966,Go Ahead!!,ANOTHER,,,-1,,,-1,,,-1,,,-1
 2969,GuNGNiR,ANOTHER,,,-1,,,-1,,,-1,,,-1
-2972,HADES,ANOTHER,2023/01/02,2023/01/02,0,2023/01/09,2023/01/09,1,,,0,,,0
+2972,HADES,ANOTHER,2023/01/02,2023/01/02,0,2023/01/09,2023/01/09,1,2025/06/29,2025/06/29,1,,,0
 2990,Mare Nectaris,ANOTHER,,,-1,,,-1,,,-1,,,-1
 3005,OTENAMI Hurricane,ANOTHER,,,-1,,,-1,,,-1,,,-1
 3014,Quakes,ANOTHER,1,1,0,,,0,,,0,,,0
@@ -311,7 +311,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 3312,Xperanza,ANOTHER,1,1,0,,,0,,,0,,,0
 3333,神謳 -RESONANCE-,ANOTHER,2024/3/24,2024/3/24,0,2024/12/21,2024/12/21,1,,,0,,,0
 3342,Amazing Mirage,LEGGENDARIA,2025/03/22,2025/03/22,0,,,0,,,0,,,0
-3343,龍と少女とデコヒーレンス,LEGGENDARIA,2024/02/02,2024/02/02,0,,,0,,,0,,,0
+3343,龍と少女とデコヒーレンス,LEGGENDARIA,2024/02/02,2024/02/02,0,2025/06/22,2025/06/22,1,,,0,,,0
 3349,DEATH†ZIGOQ ～怒りの高速爆走野郎～,ANOTHER,,,-1,,,-1,,,-1,,,-1
 3361,Usual Days-remix,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 3362,RED ZONE,LEGGENDARIA,2023/08/06,2023/08/06,0,2023/09/01,2023/09/01,1,,,0,,,0
@@ -321,7 +321,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 3381,CONTRACT,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
 3384,NITROUS CANNON,ANOTHER,,,-1,,,-1,,,-1,,,-1
 3390,DUE TOMORROW,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-3393,Persephone,ANOTHER,2023/01/07,2023/01/07,0,2023/11/04,2023/11/04,1,,,0,,,0
+3393,Persephone,ANOTHER,2023/01/07,2023/01/07,0,2023/11/04,2023/11/04,1,2025/06/22,2025/06/22,1,,,0
 3399,Raspberry Railgun,ANOTHER,2023/01/07,2023/01/07,0,2023/12/02,2023/12/02,1,,,0,,,0
 3402,Papilio ulysses,ANOTHER,2023/03/24,2023/03/24,0,2023/09/05,2023/09/05,1,,,0,,,0
 3408,HYPE THE CORE,ANOTHER,,,-1,,,-1,,,-1,,,-1
@@ -381,7 +381,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 3808,Welcome,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
 3812,B4U(BEMANI FOR YOU MIX),LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
 3813,Wanna Party?,LEGGENDARIA,2023/12/20,2023/12/20,0,,,0,,,0,,,0
-3814,AIR RAID FROM THA UNDAGROUND,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
+3814,AIR RAID FROM THA UNDAGROUND,LEGGENDARIA,2025/07/11,2025/07/11,0,,,0,,,0,,,0
 3820,GENE,ANOTHER,2023/04/19,2023/04/19,0,2024/09/08,2024/09/08,1,,,0,,,0
 3823,Night! Night! Night!,ANOTHER,2023/03/31,2023/03/31,0,2024/03/09,2024/03/09,1,,,0,,,0
 3832,お菓子の王国,ANOTHER,,,-1,,,-1,,,-1,,,-1
@@ -398,7 +398,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 3956,TECHNO Style Essentials,ANOTHER,2023/12/29,2023/12/29,0,2024/12/29,2024/12/29,1,,,0,,,0
 3959,THE BRAVE MUST DIE,ANOTHER,,,-1,,,-1,,,-1,,,-1
 3962,TRIUMPH,ANOTHER,2023/06/22,2023/06/22,0,2023/12/03,2023/12/03,1,,,0,,,0
-3992,深淵に捧ぐレクイエム,ANOTHER,2023/02/21,2023/02/21,0,2023/05/27,2023/05/27,1,,,0,,,0
+3992,深淵に捧ぐレクイエム,ANOTHER,2023/02/21,2023/02/21,0,2023/05/27,2023/05/27,1,2025/06/28,2025/06/28,1,,,0
 4000,one or eight,LEGGENDARIA,1,1,0,2025/03/01,2025/03/01,1,,,0,,,0
 4001,千年ノ理,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
 4013,LIGHTNING STRIKES,ANOTHER,2023/09/01,2023/09/01,0,,,0,,,0,,,0
@@ -413,8 +413,8 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 4077,POODLE,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 4078,TITANS RETURN,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
 4081,がっつり陰キャ!? 怪盗いいんちょの億劫^^;,ANOTHER,,,-1,,,-1,,,-1,,,-1
-4087,LASER CRUSTER (IGNITE REMIX),ANOTHER,2023/12/03,2023/12/03,0,,,0,,,0,,,0
-4105,BEAT PRISONER,ANOTHER,,,-1,,,-1,,,-1,,,-1
+4087,LASER CRUSTER (IGNITE REMIX),ANOTHER,2023/12/03,2023/12/03,0,2025/07/05,2025/07/05,1,,,0,,,0
+4105,BEAT PRISONER,ANOTHER,2025/06/28,2025/06/28,0,,,0,,,0,,,0
 4108,Double Dribble,ANOTHER,2023/06/07,2023/06/07,0,2023/12/02,2023/12/02,1,,,0,,,0
 4111,Level 2,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 4123,Vinculum stellarum,ANOTHER,2025/03/01,2025/03/01,0,,,0,,,0,,,0
@@ -427,7 +427,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 4168,魅惑のYUMMYスイーツ,ANOTHER,,,-1,,,-1,,,-1,,,-1
 4172,Secrets,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 4178,ORCA,ANOTHER,,,-1,,,-1,,,-1,,,-1
-4187,Dans la nuit de l'eternite,ANOTHER,2023/12/05,2023/12/05,0,,,0,,,0,,,0
+4187,Dans la nuit de l'eternite,ANOTHER,2023/12/05,2023/12/05,0,2025/7/12,2025/7/12,1,,,0,,,0
 4193,EROICA,ANOTHER,,,-1,,,-1,,,-1,,,-1
 4199,Smashing Wedge,ANOTHER,,,-1,,,-1,,,-1,,,-1
 4205,Megalara Garuda,ANOTHER,2023/06/04,2023/06/04,0,2024/11/23,2024/11/23,1,,,0,,,0
@@ -507,7 +507,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 4835,Phoenix,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 4838,RAGE feat.H14 of LEONAIR,ANOTHER,,,-1,,,-1,,,-1,,,-1
 4841,Smalt #28598F,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-4844,"ピアノ独奏無言歌 ""灰燼""",ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+4844,"ピアノ独奏無言歌 ""灰燼""",ANOTHER,,,-1,,,-1,,,-1,,,-1
 4845,Time to Air,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
 4852,Fire Beat,ANOTHER,,,-1,2025/02/14,2025/02/14,1,2025/02/15,2025/02/15,1,,,0
 4855,GRAVITON,ANOTHER,,,-1,,,-1,,,-1,,,-1
@@ -547,7 +547,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 5124,dica dica,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5125,Burning Flame,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5127,龍王の霊廟(Mausoleum Of The Primal Dragon),LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5130,kors k's How to make OTOGE CORE 「LONG」,ANOTHER,,,-1,,,-1,,,-1,,,-1
+5130,kors k's How to make OTOGE CORE 「LONG」,ANOTHER,2025/06/22,2025/06/22,0,,,0,,,0,,,0
 5133,Beyond Evolution,ANOTHER,,,-1,,,-1,,,-1,,,-1
 5145,glacia,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5148,Chaotoxin,ANOTHER,,,-1,,,-1,,,-1,,,-1
@@ -571,12 +571,12 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 5239,suspicions,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5255,ATHER,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5256,Dances with Snow Fairies,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5272,Dahlia,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5272,Dahlia,ANOTHER,2025/06/14,2025/06/14,0,2025/06/15,2025/06/15,1,,,0,,,0
 5284,frequent,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5287,GAME ON,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5293,Ghost Pulse,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5305,JUSTICE/GUILTY feat. Nana Takahashi & 709sec.,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5317,SOLAR ECLIPSE,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5305,JUSTICE/GUILTY feat. Nana Takahashi & 709sec.,ANOTHER,2025/06/14,2025/06/14,0,2025/06/15,2025/06/15,1,,,0,,,0
+5317,SOLAR ECLIPSE,ANOTHER,2025/06/17,2025/06/17,0,,,0,,,0,,,0
 5371,摩天楼,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5380,恋する☆宇宙戦争っ！！,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5381,BLUE DRAGON(雷龍RemixIIDX),LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
@@ -584,16 +584,16 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 5397,《PL|RAYER》,ANOTHER,,,-1,2024/6/6,2024/6/6,1,2024/6/6,2024/6/6,1,,,0
 5403,電光,ANOTHER,,,-1,2024/6/6,2024/6/6,1,2025/03/05,2025/03/05,1,,,0
 5418,Sirius,ANOTHER,,,-1,2024/6/6,2024/6/6,1,2025/02/02,2025/02/02,1,,,0
-5421,終焔のClaudia,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5424,"灼熱Beach Side Bunny (かめりあ's ""Summertime D'n'B"" Remix)",ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5421,終焔のClaudia,ANOTHER,2025/06/14,2025/06/14,0,2025/06/15,2025/06/15,1,,,0,,,0
+5424,"灼熱Beach Side Bunny (かめりあ's ""Summertime D'n'B"" Remix)",ANOTHER,2025/06/14,2025/06/14,0,2025/06/15,2025/06/15,1,,,0,,,0
 5439,Out of Control,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5442,Vermilion Carol,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5442,Vermilion Carol,ANOTHER,2025/06/15,2025/06/15,0,2025/7/12,2025/7/12,1,,,0,,,0
 5445,Logic Board,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5446,表裏一体！？怪盗いいんちょの悩み,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5461,MAXIMUM CHEAT GIRL,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5461,MAXIMUM CHEAT GIRL,ANOTHER,2025/06/17,2025/06/17,0,,,0,,,0,,,0
 5464,Glitch N Ride,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5476,Sword of Vengeance,ANOTHER,,,-1,2025/02/14,2025/02/14,1,2025/02/14,2025/02/14,1,,,0
-5479,Million Dollar,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5479,Million Dollar,ANOTHER,2025/06/17,2025/06/17,0,,,0,,,0,,,0
 5482,CADENZA,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5491,Xb10r,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5494,Ambivalent Vermilia,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
@@ -603,7 +603,7 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 5514,O/D*20,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5516,Saturn,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5519,俺ら東京さ行ぐだ,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5520,華蝶風雪,LEGGENDARIA,,,-1,,,-1,,,-1,,,-1
+5520,華蝶風雪,LEGGENDARIA,2025/06/28,2025/06/28,0,,,0,,,0,,,0
 5544,BLAZING_LAZER,ANOTHER,2023/04/08,2023/04/08,0,,,0,,,0,,,0
 5550,未完成ノ蒸氣驅動乙女,ANOTHER,2023/12/21,2023/12/21,0,2024/11/03,2024/11/03,1,,,0,,,0
 5553,残像ニ繋ガレタ追憶ノHIDEAWAY,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
@@ -611,11 +611,11 @@ song_id,name,difficulty,play_date_raw,play_date,played,easy_date_raw,easy_date,e
 5559,惑星鉄道,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5562,The Last Apocalypse,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5565,Level 5,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5580,ACT0,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5580,ACT0,ANOTHER,2025/06/14,2025/06/14,0,2025/06/14,2025/06/14,1,,,0,,,0
 5583,電腦都市,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5589,今宵、ロマンス横丁。,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5595,CODE:2,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
-5598,Vulnerability,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
+5598,Vulnerability,ANOTHER,,,-1,,,-1,,,-1,,,-1
 5604,Cult Invitation,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5607,Resonant,ANOTHER,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
 5614,GUILTY,LEGGENDARIA,#N/A,,-1,#N/A,,-1,#N/A,,-1,#N/A,,-1
