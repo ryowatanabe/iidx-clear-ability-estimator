@@ -12,9 +12,17 @@ Python 3.x が必要です。
 
 ## 環境設定
 
-```bash
-python3 -m venv venv
-source venv/bin/activate
+### 仮想環境の構築
+
+```
+python -m venv venv
+venv/Scripts/Activate
+```
+
+### 必要なモジュールをインストール
+
+```
+python -m pip install --upgrade pip
 pip install -r requirements.txt
 ```
 

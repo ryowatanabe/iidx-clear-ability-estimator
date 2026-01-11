@@ -1,5 +1,6 @@
 import csv
 import argparse
+import sys
 
 # 入力ファイル : ereternet_difficulty_diffonly.csv の形式
 # 出力ファイル : model_data.csv の形式
@@ -29,6 +30,9 @@ def process_csv(input_file):
         print(f"エラー：CSVファイルの処理中にエラーが発生しました：{e}")
 
 if __name__ == "__main__":
+    # 標準出力の改行コードをLFに統一
+    sys.stdout.reconfigure(newline='\n')
+    
     parser = argparse.ArgumentParser(description="CSVファイルを読み込んで処理し、指定された形式でデータを出力する。")
     parser.add_argument("input_file", help="入力CSVファイル名")
     args = parser.parse_args()
